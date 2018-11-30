@@ -8,6 +8,6 @@
 - Les fonctions : FAIT
 - Les tableaux : FAIT
 - Les paramètres : FAIT
-- Les formulaires : EN COURS DE REALISATION
+- Les formulaires : FAIT
 - Les variables globales, $SESSION : A FAIRE 
-- Les dates : A FAIRE 
+- Les dates : EN COURS DE REALISATION
