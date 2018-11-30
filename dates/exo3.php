@@ -1,11 +1,9 @@
 <?php
 
-/*
-Exercice 3
-Afficher la date courante avec le jour de la semaine et le mois en toutes lettres (ex : mardi 2 août 2016)
+echo "Nous somme\n" . " " . date('l jS \of F Y');  
 
-Bonus : Le faire en français.
-*/
+setlocale(LC_ALL, 'fr_FR');
+echo "Nous sommes\n" . " " . date('l jS \of F Y');
 
 
 ?>
