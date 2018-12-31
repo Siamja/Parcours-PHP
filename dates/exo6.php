@@ -1,9 +1,7 @@
 <?php
 
-/*
-Exercice 6
-Afficher le nombre de jour dans le mois de février de l'année 2017.
-*/
-
+$month = mktime(0, 0, 0, 2, 1, 2017);
+setlocale(LC_ALL, 'fr_FR.utf8');
+echo strftime("Le mois de ".date("F Y",$month)." compte ".date("t",$month)." jours");
 
 ?>

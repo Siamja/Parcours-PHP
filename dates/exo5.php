@@ -1,9 +1,10 @@
 <?php
 
-/*
-Exercice 5
-Afficher le nombre de jour qui sépare la date du jour avec le 16 mai 2016.
-*/
+$givenDatum = "16-05-2016";
+    $Today = date("d-m-Y");
+    $Result = ((strtotime($Today)) - strtotime($givenDatum));
+    $Result = round($Result / (60*60*24)); 
+    echo "La différence entre les 2 dates est de $Result jours<br><br>";
 
 
 ?>
