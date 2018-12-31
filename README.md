@@ -10,6 +10,6 @@
 - Les paramètres : FAIT
 - Les formulaires : FAIT
 - Les variables globales, $SESSION : A FAIRE 
-- Les dates : Fait
+- Les dates : FAIT
 
 ## Drill non terminé suite à des problèmes avec l'installation de PHP sur mon pc afin de travailler chez moi. A terminer. 
